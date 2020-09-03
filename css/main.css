@@ -1,3 +1,12 @@
 body {
   margin-top:100px;
 }
+
+.fullpage {
+  height: 100vh;
+  min-height: 500px;
+  background-color: green;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
