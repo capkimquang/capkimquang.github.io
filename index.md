@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <<test>>
+title: Về mình
 ---
 
 # Chào cậu, mình là Quang.
@@ -23,12 +23,12 @@ hiện tại mình theo học công nghệ thông tin, bất ngờ không? Bạn
 theo marketing hay kinh tế? Mình chưa có câu trả lời cho câu hỏi đó.
 
 mà trước mắt, mình thích học về lập trình. Áp dụng công nghệ vào bất cứ lĩnh vực nào, nó sẽ thay đổi lĩnh vực đó và đào thải những ai không chịu thay đổi. 
-Công nghệ có một tầm ảnh hưởng to lớn vớn sự phát triển của loài người, tình tới thời điểm hiện tại. Nếu đứng trước một cơ hội như vậy, mình sẽ không từ chối.
+Công nghệ có một tầm ảnh hưởng to lớn vớn sự phát triển của loài người, tính tới thời điểm hiện tại. Nếu đứng trước một cơ hội như vậy, mình sẽ không từ chối.
 
 thế nên, chiếc blog này ra đời nhằm đáp ứng cả ba nhu cầu ấy của bản thân mình: việc viết về công nghệ, việc chăm chút cho chiếc blog này bắt mắt và việc 
 cung cấp những thông tin cần thiết về công nghệ như thuật toán, cấu trúc dữ liệu, cơ sở dữ liệu, lập trình hướng đối tượng, vân vân và mây mây.
 
 ## Vậy,
-nếu cậu có bất kì hứng thú gì với mình, hoặc muốn đóng góp ý tưởng cho mình, hoặc có một công việc để giới thiệu cho mình. Liên hệ mình tại kimquangcap@gmail.com.
+nếu cậu có bất kì hứng thú gì với mình, hoặc muốn đóng góp ý tưởng cho mình, hoặc có một công việc để giới thiệu cho mình, liên hệ mình tại kimquangcap@gmail.com.
 
 ## Cảm ơn cậu đã ghé thăm.
