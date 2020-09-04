@@ -29,12 +29,12 @@ footer {
 .navbar-custom .navbar-nav .nav-link {
   font-family: 'Livory';
   font-weight: bold;
-  color: #000000;
+  color: #000000; /* black */
 }
 
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: red; /* testing only */
+    color: #D8534F; /* red */
 }
 
 /***************************************/ 
