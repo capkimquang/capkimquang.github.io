@@ -29,13 +29,10 @@ footer {
 .nav-item {
   font-family: 'Livory';
   font-weight: bold;
+  font-color: black; /* for testing only, edit color later */
 }
 
-.nav-item :hover {
-  color: red; /* for testing only, edit color later */
-}
-
-.nav-item > .nav-link.active  {
+.nav-item:hover {
   color: red; /* for testing only, edit color later */
 }
 
