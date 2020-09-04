@@ -29,11 +29,11 @@ footer {
 .nav-item {
   font-family: 'Livory';
   font-weight: bold;
-  font-color: black; /* for testing only, edit color later */
+  color: black; /* for testing only, edit color later */
 }
 
 .nav-item:hover {
-  color: red; /* for testing only, edit color later */
+  color: white; /* for testing only, edit color later */
 }
 
 
