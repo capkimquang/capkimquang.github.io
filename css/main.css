@@ -39,9 +39,8 @@ footer {
 /***************************************/ 
 /*   Animated Hamberger Toggler Icon   */
 /***************************************/
-
-.third-button {
-  outline: none;
+.navbar-toggler {
+border: 0 !important;
 }
 
 /* Icon 1 */
