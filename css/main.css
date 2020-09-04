@@ -26,7 +26,14 @@ footer {
 /***************************************/ 
 /*      CSS format for nav-items       */
 /***************************************/
-.nav-item {
+.navbar-custom .navbar-nav .nav-link {
+  font-family: 'Livory';
+  font-weight: bold;
+  color: #000000;
+}
+
+
+/* .nav-item {
   font-family: 'Livory';
   font-weight: bold;
   color: black; /* for testing only, edit color later */
@@ -34,7 +41,7 @@ footer {
 
 .nav-item:hover {
   color: white; /* for testing only, edit color later */
-}
+} */
 
 /***************************************/ 
 /*   Animated Hamberger Toggler Icon   */
