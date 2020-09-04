@@ -32,16 +32,10 @@ footer {
   color: #000000;
 }
 
-
-/* .nav-item {
-  font-family: 'Livory';
-  font-weight: bold;
-  color: black; /* for testing only, edit color later */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: red; /* testing only */
 }
-
-.nav-item:hover {
-  color: white; /* for testing only, edit color later */
-} */
 
 /***************************************/ 
 /*   Animated Hamberger Toggler Icon   */
