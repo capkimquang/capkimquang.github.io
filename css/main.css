@@ -39,6 +39,11 @@ footer {
 /***************************************/ 
 /*   Animated Hamberger Toggler Icon   */
 /***************************************/
+
+.third-button {
+  outline: 0px;
+}
+
 /* Icon 1 */
 
 .animated-icon1, .animated-icon2, .animated-icon3 {
