@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Your hair looks good.
+title: Hey, your hair looks good.
 ---
 
 ## Chào cậu, mình là Quang.
