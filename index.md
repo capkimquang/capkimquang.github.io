@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Về mình
+title: Your hair looks good.
 ---
 
-# Chào cậu, mình là Quang.
-mà cậu cũng có thể gọi mình là Lôi hen.  
+## Chào cậu, mình là Quang.
+mà cậu cũng có thể gọi mình là Lôi hen.
+
 ## Về mình
 mình rất thích viết, mình từng viết một chiếc blog được hơn 7000 likes. Bọn mình cho xuất bản một quyển sách, sau đó không viết nữa.
 
@@ -29,6 +30,6 @@ thế nên, chiếc blog này ra đời nhằm đáp ứng cả ba nhu cầu ấ
 cung cấp những thông tin cần thiết về công nghệ như thuật toán, cấu trúc dữ liệu, cơ sở dữ liệu, lập trình hướng đối tượng, vân vân và mây mây.
 
 ## Vậy,
-nếu cậu có bất kì hứng thú gì với mình, hoặc muốn đóng góp ý tưởng cho mình, hoặc có một công việc để giới thiệu cho mình, liên hệ mình tại kimquangcap@gmail.com.
+nếu cậu có bất kì hứng thú gì với mình, hoặc muốn đóng góp ý tưởng cho mình, hoặc có một công việc để giới thiệu cho mình, liên hệ mình tại [đây](mailto:kimquangcap@gmail.com).
 
 ## Cảm ơn cậu đã ghé thăm.
