@@ -17,13 +17,13 @@ p {
   font-family: 'Livory';
 }
 
-a {
+/* a {
   color: #000000;
   
   &:hover {
     color: #D8534F;
   }
-}
+} */
 
 
 footer {
