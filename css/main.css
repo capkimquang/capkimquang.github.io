@@ -4,20 +4,13 @@ body {
   background-color: white;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Alberto', Helvetica, serif;
 }
 
 p {
   font-family: 'Livory';
 }
-
-
 
 footer {
   padding-top: 100px;
@@ -125,3 +118,71 @@ footer {
   top: 21px;
   left: 8px;
 }
+
+/***************************************/ 
+/*           Article Content           */
+/***************************************/
+.article {
+  margin: 50px 100px 50px 100px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #EEEEEE; /* grey */
+}
+
+.article-title {
+  margin-bottom: 20px;
+  font-size: 30px; /* equals to 1.875 em = h2 font size */
+  color: #000000;
+}
+
+.article-excerpt {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 25px;
+  color:  #818181; /* dark grey */
+}
+
+.article-info {
+  font-family: 'Livory';
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  color:  #818181; /* dark grey */
+}
+
+/* .article-tag {
+  &:after {
+    content: ",";
+    display: inline-block;
+  }
+  
+  &:last-child {
+    &:after {
+      content: "";
+    }
+  }
+} */
+
+.article-title-link {
+  color: #000000;
+  font-family: 'Alberto', Helvetica, serif;
+}
+
+.article-tag-link, .article-date-link {
+  color: #000000; /* black */
+  font-family: 'Livory';
+}
+
+.article-title-link:hover, .article-tag-link:hover, .article-date-link:hover {
+  color: #D8534F; /* red */
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
