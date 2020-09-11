@@ -125,3 +125,70 @@ footer {
   top: 21px;
   left: 8px;
 }
+
+/***************************************/ 
+/*           Article Content           */
+/***************************************/
+.article {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #FAFBFC; /* grey */
+}
+
+.article-title {
+  margin-bottom: 20px;
+  font-size: 21px;
+
+  a {
+    &:hover {
+      color: #D8534F; /* red */
+    }
+  }
+}
+
+.article-excerpt {
+  margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 25px;
+  color:  #E1E4E8;
+}
+
+.article-info {
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  color:  #E1E4E8;
+  
+  a {
+    display: inline-block;
+    color: #000000;
+    border-bottom: 1px #000000;
+
+    &:hover {
+      color: #D8534F; /* red */
+    }
+  }
+}
+
+.article-tag {
+  &:after {
+    content: ",";
+    display: inline-block;
+  }
+  
+  &:last-child {
+    &:after {
+      content: "";
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
