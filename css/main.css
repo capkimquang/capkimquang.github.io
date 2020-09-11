@@ -145,14 +145,14 @@ footer {
 
 .article-title {
   margin-bottom: 20px;
-  font-size: 5px; /* equals to 1.5 em = h2 font size */
+  font-size: 24px; /* equals to 1.5 em = h2 font size */
   color: #000000;
 
-  a {
+/*   a {
     &:hover {
-      color: #D8534F; /* red */
+      color: #D8534F; /* red *//*
     }
-  }
+  } */
 }
 
 .article-excerpt {
@@ -168,18 +168,18 @@ footer {
   letter-spacing: 0.5px;
   color:  #818181; /* dark grey */
   
-  a {
+/*   a {
     display: inline-block;
     color: #000000;
     border-bottom: 1px #000000;
 
     &:hover {
-      color: #D8534F; /* red */
+      color: #D8534F; /* red *//*
     }
-  }
+  } */
 }
 
-.article-tag {
+/* .article-tag {
   &:after {
     content: ",";
     display: inline-block;
@@ -190,7 +190,7 @@ footer {
       content: "";
     }
   }
-}
+} */
 
 
 
