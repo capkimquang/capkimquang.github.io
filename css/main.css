@@ -4,27 +4,13 @@ body {
   background-color: white;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Alberto', Helvetica, serif;
 }
 
 p {
   font-family: 'Livory';
 }
-
-/* a {
-  color: #000000;
-  
-  &:hover {
-    color: #D8534F;
-  }
-} */
-
 
 footer {
   padding-top: 100px;
@@ -137,22 +123,15 @@ footer {
 /*           Article Content           */
 /***************************************/
 .article {
-  margin-bottom: 50px;
-  margin-top: 50px;
+  margin: 50px 100px 50px 100px;
   padding-bottom: 50px;
-  border-bottom: 1px solid #818181; /* grey */
+  border-bottom: 1px solid #EEEEEE; /* grey */
 }
 
 .article-title {
   margin-bottom: 20px;
-  font-size: 24px; /* equals to 1.5 em = h2 font size */
+  font-size: 30px; /* equals to 1.875 em = h2 font size */
   color: #000000;
-
-/*   a {
-    &:hover {
-      color: #D8534F; /* red *//*
-    }
-  } */
 }
 
 .article-excerpt {
@@ -167,16 +146,6 @@ footer {
   line-height: 18px;
   letter-spacing: 0.5px;
   color:  #818181; /* dark grey */
-  
-/*   a {
-    display: inline-block;
-    color: #000000;
-    border-bottom: 1px #000000;
-
-    &:hover {
-      color: #D8534F; /* red *//*
-    }
-  } */
 }
 
 /* .article-tag {
