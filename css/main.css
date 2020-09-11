@@ -145,7 +145,7 @@ footer {
 
 .article-title {
   margin-bottom: 20px;
-  font-size: 24px; /* equals to 1.5 em = h2 font size */
+  font-size: 5px; /* equals to 1.5 em = h2 font size */
   color: #000000;
 
   a {
