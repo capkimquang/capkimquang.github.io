@@ -142,6 +142,7 @@ footer {
 }
 
 .article-info {
+  font-family: 'Livory';
   font-size: 13px;
   line-height: 18px;
   letter-spacing: 0.5px;
@@ -164,13 +165,11 @@ footer {
 .article-title-link {
   color: #000000;
   font-family: 'Alberto', Helvetica, serif;
-  font-size: 24px;
 }
 
 .article-tag-link, .article-date-link {
   color: #000000; /* black */
   font-family: 'Livory';
-  font-size; 16px;
 }
 
 .article-title-link:hover, .article-tag-link:hover, .article-date-link:hover {
