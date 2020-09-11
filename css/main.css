@@ -133,7 +133,7 @@ footer {
   margin-bottom: 50px;
   margin-top: 50px;
   padding-bottom: 50px;
-  border-bottom: 1px solid #E1E3E5; /* grey */
+  border-bottom: 1px solid #818181; /* grey */
 }
 
 .article-title {
@@ -152,14 +152,14 @@ footer {
   margin-bottom: 20px;
   font-size: 16px;
   line-height: 25px;
-  color:  #E1E3E5;
+  color:  #818181; /* dark grey */
 }
 
 .article-info {
   font-size: 13px;
   line-height: 18px;
   letter-spacing: 0.5px;
-  color:  #E1E3E5;
+  color:  #818181; /* dark grey */
   
   a {
     display: inline-block;
