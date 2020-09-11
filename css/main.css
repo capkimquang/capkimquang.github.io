@@ -192,12 +192,21 @@ footer {
   }
 } */
 
-.article-title-link, .article-tag-link, .article-date-link {
+.article-title-link {
+  color: #000000;
+  font-family: 'Alberto', Helvetica, serif;
+  font-size: 24px;
+}
+
+.article-tag-link, .article-date-link {
   color: #000000; /* black */
+  font-family: 'Livory';
+  font-size; 16px;
 }
 
 .article-title-link:hover, .article-tag-link:hover, .article-date-link:hover {
   color: #D8534F; /* red */
+  text-decoration: none;
 }
 
 
