@@ -131,13 +131,15 @@ footer {
 /***************************************/
 .article {
   margin-bottom: 50px;
+  margin-top: 50px;
   padding-bottom: 50px;
-  border-bottom: 1px solid #FAFBFC; /* grey */
+  border-bottom: 1px solid #E1E3E5; /* grey */
 }
 
 .article-title {
   margin-bottom: 20px;
-  font-size: 21px;
+  font-size: 24px; /* equals to 1.5 em = h2 font size */
+  color: #000000;
 
   a {
     &:hover {
@@ -148,16 +150,16 @@ footer {
 
 .article-excerpt {
   margin-bottom: 20px;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 25px;
-  color:  #E1E4E8;
+  color:  #E1E3E5;
 }
 
 .article-info {
   font-size: 13px;
   line-height: 18px;
   letter-spacing: 0.5px;
-  color:  #E1E4E8;
+  color:  #E1E3E5;
   
   a {
     display: inline-block;
