@@ -3,14 +3,21 @@ layout: default
 title: Bài viết
 ---
 <h1>{{ page.title }}</h1>
-<!-- 	<ul class="posts">
-
+	<ul class="posts">
 	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	    <li>
+		    <span>
+          {{ post.date | date_to_string }}
+        </span> 
+        » 
+        <a href="{{ post.url }}" title="{{ post.title }}">
+          {% include article-content.html %}
+        </a>
+      </li>
 	  {% endfor %}
-	</ul> -->
+	</ul>
 
-<div class="container">
+<!-- <div class="container">
 	<div class="row">
 		{% if site.posts.size > 0 %}
 			{% for post in paginator.posts %}
@@ -19,4 +26,4 @@ title: Bài viết
 		{% endif %}
 	</div>
 </div>
-{% include pagination.html %}
+{% include pagination.html %} -->
