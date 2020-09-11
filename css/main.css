@@ -192,6 +192,14 @@ footer {
   }
 } */
 
+.article-title-link, .article-tag-link, .article-date-link {
+  color: #000000; /* black */
+}
+
+.article-title-link:hover, .article-tag-link:hover, .article-date-link:hover {
+  color: #D8534F; /* red */
+}
+
 
 
 
