@@ -3,5 +3,5 @@
 
 
 # PAGINATION
-# paginate: 5
-# paginate_path: "/page/:num"
+paginate: 5
+paginate_path: "/page/:num"
