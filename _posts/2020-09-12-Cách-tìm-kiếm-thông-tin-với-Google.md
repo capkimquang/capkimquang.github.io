@@ -43,3 +43,5 @@ Sử dụng chức năng tìm kiếm bằng hình ảnh không phải là một 
 Ví dụ như khi muốn tìm hiểu cách thiết kế AlertDialog. Một số trang web sẽ viết về cách thiết kể hộp thoại chỉ chứa text, nhưng bạn lại muốn có button nữa hoặc bạn muốn thay đổi màu của hộp thoại. Thay vì tìm kiếm bằng từ ngữ (vốn có thể không rõ ràng và chính xác, vì bạn không biết mình đang tìm kiếm điều gì), hãy tìm kiếm bằng hình ảnh và xem kết quả trả về bằng hình ảnh. Tìm một bức ảnh nhìn giống với cách bạn muốn thiết kế hộp thoại của mình và truy cập vào trang web đó. Ngoài ra, cách này cũng có thể được sử dụng để tìm kiếm những thông tin mà bạn không biết tên của chúng.
 
 Trên đây là những cách mình dùng để tìm kiếm thông tin. Dĩ nhiên bạn cũng có thể kết hợp những cách trên để có kết quả tìm kiếm tốt hơn.
+
+> Bài viết được chuyển ngữ từ bài viết gốc: How to Use Google to Solve Your Programming Questions by Florian trên trang Coding in Flow
