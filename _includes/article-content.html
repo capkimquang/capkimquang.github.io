@@ -15,20 +15,17 @@
       <div class="article-info">
         {% if post.tags.size >= 1 %}
           <span class="article-tags">
-            posted in
-<!--             <a href="{{ site.baseurl }}/tag/{{ post.tag }}" class="article-tag-link">
-              {{ post.tag }}
-            </a> -->
+            đăng trong
             {% for tag in post.tags %}
               {% capture tag_name %}{{ tag }}{% endcapture %}
               <a href="/tag/{{ tag_name }}" class="article-tag article-tag-link">{{ tag_name }}</a>
-              {% unless forloop.last %},{% endunless %}
+              {% unless forloop.last %}|{% endunless %}
             {% endfor %}
           </span>
         {% endif %}
         <span class="article-meta">
           <span class="article-date"> 
-            on 
+            ngày 
             <a href="{{ post.url | prepend: site.baseurl }}" class="article-date-link">
               <time datetime="{{ post.date | date_to_xmlschema }}">
                 {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
