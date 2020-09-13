@@ -27,30 +27,23 @@
           <span class="article-date"> 
             ngày 
             <a href="{{ post.url | prepend: site.baseurl }}" class="article-date-link">
-<!--               
-              <time datetime="{{ post.date | date_to_xmlschema }}">
-                {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
-                {{ post.date | date: date_format }}
-                -->
-<!--               <time datetime="{{ post.date }}"> -->
-                {% assign m = post.date | date: "%-m" %}
-                {{ post.date | date: "%-d" }}
-                 {% case m %}
-                  {% when '1' %}Januar
-                  {% when '2' %}Februar
-                  {% when '3' %}Mrz
-                  {% when '4' %}April
-                  {% when '5' %}Mai
-                  {% when '6' %}Juni
-                  {% when '7' %}Juli
-                  {% when '8' %}August
-                  {% when '9' %}September
-                  {% when '10' %}Oktober
-                  {% when '11' %}November
-                  {% when '12' %}Dezember
-                {% endcase %}
-                {{ post.date | date: "%Y" }}
-<!--               </time> -->
+               {% assign m = post.date | date: "%-m" %}
+               {{ post.date | date: "%-d" }}
+               {% case m %}
+                 {% when '1' %}tháng 1,
+                 {% when '2' %}tháng 2,
+                 {% when '3' %}tháng 3,
+                 {% when '4' %}tháng 4,
+                 {% when '5' %}tháng 5,
+                 {% when '6' %}tháng 6,
+                 {% when '7' %}tháng 7,
+                 {% when '8' %}tháng 8,
+                 {% when '9' %}tháng 9,
+                 {% when '10' %}tháng 10,
+                 {% when '11' %}tháng 11,
+                 {% when '12' %}tháng 12,
+               {% endcase %}
+               {{ post.date | date: "%Y" }}
             </a>
           </span>
         </span>
