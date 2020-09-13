@@ -13,14 +13,24 @@
         {% endif %}
       </p>
       <div class="article-info">
-        {% if post.tag.size >= 1 %}
+<!--         {% if post.tag.size >= 1 %} -->
           <span class="article-tag">
             posted in
-            <a href="{{ site.baseurl }}/tag/{{ post.tag }}" class="article-tag-link">
+<!--             <a href="{{ site.baseurl }}/tag/{{ post.tag }}" class="article-tag-link">
               {{ post.tag }}
-            </a>
+            </a> -->
+            {% for tag in page.tags %}
+              {% capture tag_name %}
+                {{ tag }}
+              {% endcapture %}
+              <a href="/tag/{{ tag_name }}">
+                <code class="highligher-rouge">
+                  <nobr>{{ tag_name }}</nobr>
+                </code>&nbsp;
+              </a>
+            {% endfor %}
           </span>
-        {% endif %}
+<!--         {% endif %} -->
         <span class="article-meta">
           <span class="article-date"> 
             on 
