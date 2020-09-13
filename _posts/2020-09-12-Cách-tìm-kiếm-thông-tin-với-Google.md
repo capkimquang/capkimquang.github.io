@@ -2,7 +2,7 @@
 layout: post
 title: Cách tìm kiếm thông tin với Google
 date: 2020-09-12
-tags: programming
+tags: programming productivity
 ---
 
 Trong vòng hơn nửa năm từ khi quyết định trở thành một Youtuber, mỗi ngày mình đều đăng một video mới (mặc dù đôi lúc đã quá nửa đêm). Việc làm video về lập trình đòi hỏi phải tự tìm hiểu rất nhiều, đồng nghĩa với việc nhiều khi phải tìm hiểu đi đi lại lại hơn 150 lần cho mỗi chủ đề. Mình hiểu và tự tin giải thích được đa số những kiến thức mình tìm được, cũng như có thể chỉ ra lỗi, hay những thiếu sót trong những bài viết đó.
