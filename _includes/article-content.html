@@ -27,14 +27,16 @@
           <span class="article-date"> 
             ngày 
             <a href="{{ post.url | prepend: site.baseurl }}" class="article-date-link">
+              <!--
               <time datetime="{{ post.date | date_to_xmlschema }}">
-                <!--
                 {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
                 {{ post.date | date: date_format }}
                 -->
-                {% assign m = page.date | date: "%-m" %}
-                {{ page.date | date: "%-d" }}
-                {% case m %}
+              <time datetime="{{ post.date }}">
+                <!-- Whitespace added for readability -->
+                {% assign m = post.date | date: "%-m" %}
+                {{ post.date | date: "%-d" }}.
+                 {% case m %}
                   {% when '1' %}Januar
                   {% when '2' %}Februar
                   {% when '3' %}M&auml;rz
@@ -48,7 +50,7 @@
                   {% when '11' %}November
                   {% when '12' %}Dezember
                 {% endcase %}
-                {{ page.date | date: "%Y" }}
+                {{ post.date | date: "%Y" }}
               </time>
             </a>
           </span>
