@@ -27,8 +27,8 @@
             <a href="{{ post.url | prepend: site.baseurl }}" class="article-date-link">
               <time datetime="{{ post.date | date_to_xmlschema }}">
 <!--                 {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
-                {{ post.date | date: date_format }}
-                {% assign m = page.date | date: "%-m" %} -->
+                {{ post.date | date: date_format }} -->
+                {% assign m = page.date | date: "%-m" %}
                 {{ page.date | date: "%-d" }}
                 {% case m %}
                   {% when '1' %}Januar
