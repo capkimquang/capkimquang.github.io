@@ -17,4 +17,9 @@
   
   <!-- Fonts -->
   {% include font.html %}
+  
+  <!-- Tags -->
+  {% if site.tags != "" %}
+    {% include collect_tags.html %}
+  {% endif %}
 </head>
